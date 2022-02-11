@@ -70,10 +70,12 @@ dependencies {
   implementation project(':domain')
   implementation project(':data')
 
-  annotationProcessor presentationDependencies.daggerCompiler
   implementation presentationDependencies.dagger
+  annotationProcessor presentationDependencies.daggerCompiler
   implementation presentationDependencies.butterKnife
   annotationProcessor presentationDependencies.butterKnife
+  implementation presentationDependencies.javaxAnnotationApi
+  annotationProcessor presentationDependencies.javaxAnnotationApi
   implementation presentationDependencies.recyclerView
   implementation presentationDependencies.rxJava
   implementation presentationDependencies.rxAndroid

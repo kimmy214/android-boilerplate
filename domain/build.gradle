@@ -1,4 +1,5 @@
 apply plugin: 'java'
+apply plugin: 'java-library'
 
 //noinspection GroovyUnusedAssignment
 sourceCompatibility = 1.7
@@ -23,7 +24,7 @@ dependencies {
 
   implementation domainDependencies.javaxInject
   implementation domainDependencies.rxJava
-  compile domainDependencies.arrow
+  api domainDependencies.arrow
 
   testImplementation domainTestDependencies.junit
   testImplementation domainTestDependencies.mockito

@@ -1,15 +1,17 @@
 allprojects {
   repositories {
-    jcenter()
+    gradlePluginPortal()
+    mavenCentral()
+    google()
   }
 }
 
 ext {
   //Android
-  androidBuildToolsVersion = "27.0.1"
-  androidMinSdkVersion = 15
-  androidTargetSdkVersion = 26
-  androidCompileSdkVersion = 26
+  androidBuildToolsVersion = "30.0.2"
+  androidMinSdkVersion = 21
+  androidTargetSdkVersion = 30
+  androidCompileSdkVersion = 30
 
   //Libraries
   daggerVersion = '2.8'

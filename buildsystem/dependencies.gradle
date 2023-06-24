@@ -29,7 +29,7 @@ ext {
 
   //Testing
   robolectricVersion = '3.1.1'
-  jUnitVersion = '4.12'
+  jUnitVersion = '4.13.2'
   assertJVersion = '1.7.1'
   mockitoVersion = '1.9.5'
   dexmakerVersion = '1.0'

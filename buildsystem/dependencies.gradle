@@ -14,7 +14,7 @@ ext {
   androidCompileSdkVersion = 30
 
   //Libraries
-  daggerVersion = '2.8'
+  daggerVersion = '2.55'
   butterKnifeVersion = '7.0.1'
   recyclerViewVersion = '25.4.0'
   rxJavaVersion = '2.0.2'
